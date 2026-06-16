@@ -2,7 +2,7 @@
 
 # 🚀 LifeOS AI – Personal Chief of Staff
 
-**An intelligent personal operating system that acts as an AI Chief of Staff. It analyzes schedules, goals, tasks, projects, and priorities to recommend the highest-impact actions in real time.**
+**LifeOS AI is a next-generation intelligent personal operating system designed to act as your autonomous AI Chief of Staff. By seamlessly integrating and analyzing your schedules, long-term goals, pending tasks, projects, and shifting priorities, it cuts through the noise and strategically recommends the absolute highest-impact actions in real time. Built on Next.js and powered by Google Gemini, it transforms daily chaos into focused, executive-level productivity.**
 
 <p align="center">
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
