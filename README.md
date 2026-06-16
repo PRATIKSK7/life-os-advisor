@@ -181,19 +181,28 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-## 👨‍💻 Author
+## 👷‍♂️ Author Section
 
-**Name:** Pratik S K  
-**Role:** Computer Science Engineering Student  
-**Bio:** Passionate about AI, Software Engineering, Intelligent Systems, and building products that solve real-world problems.
+**Pratik S Kanoj**
 
-### 📬 Connect With Me
-- 📧 **Email:** [pratiksk0077@gmail.com](mailto:pratiksk0077@gmail.com)
+**Artificial Intelligence & Data Science Engineer**
+
+I am a passionate AI Engineer specializing in Machine Learning, Computer Vision, and full-stack integration. I build robust, production-ready AI systems that solve real-world problems. My expertise lies in taking complex Deep Learning architectures and deploying them into scalable, user-centric web applications.
+
+**Technical Expertise:**
+
+- **AI & Data Science:** Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, Generative AI, MLOps, Data Science.
+- **Backend & Cloud:** Python, FastAPI, Docker, RESTful APIs.
+- **Frontend:** React, JavaScript, HTML, CSS, Streamlit.
+
+**Connect with me:**
+
 - 💼 **LinkedIn:** [Pratik S Kanoj](https://www.linkedin.com/in/pratik-s-kanoj-a81432300/)
-- 🐙 **GitHub:** [@PRATIKSK7](https://github.com/PRATIKSK7)
+- 🐙 **GitHub:** [github.com/PRATIKSK7](https://github.com/PRATIKSK7)
+- ✉️ **Email:** [pratiksk0077@gmail.com](mailto:pratiksk0077@gmail.com)
+
+*If you found this project interesting or helpful, please consider giving it a ⭐ on GitHub!*
 
 ---
 
-## ⭐ Star the Project
-
-If you found this project useful, inspiring, or helpful for your own development, please consider starring the repository! It helps the project grow and reach more developers.
+*Built with ❤️ using Next.js, Tailwind CSS, and Gemini AI.*
