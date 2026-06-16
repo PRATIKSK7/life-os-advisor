@@ -1,36 +1,199 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# 🚀 LifeOS AI – Personal Chief of Staff
 
-First, run the development server:
+**An intelligent personal operating system that acts as an AI Chief of Staff. It analyzes schedules, goals, tasks, projects, and priorities to recommend the highest-impact actions in real time.**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Gemini_AI-8E75B2?style=for-the-badge&logo=googlebard&logoColor=white" alt="Gemini AI" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+  <img src="https://img.shields.io/badge/Open_Source-4CAF50?style=for-the-badge&logo=open-source-initiative&logoColor=white" alt="Open Source" />
+</p>
+
+</div>
+
+---
+
+## ✨ Features
+
+- ✅ **AI Chief of Staff:** Conversational AI advisor that understands your life context.
+- ✅ **Smart Task Prioritization:** Algorithmically ranks work based on impact and deadlines.
+- ✅ **Goal Tracking:** Tie daily actions directly to long-term objectives.
+- ✅ **Schedule Management:** Visualize your daily timeline and protect deep work.
+- ✅ **AI Decision Engine:** Computes the highest-leverage action at any given minute.
+- ✅ **Personalized Recommendations:** Get executive briefings tailored to your academic and professional profile.
+- ✅ **Daily Planning:** Automatically synthesize tasks into an optimal schedule.
+- ✅ **Productivity Analytics:** Measure execution against goals.
+- ✅ **Gemini AI Integration:** Powered by Google's state-of-the-art Gemini 2.5 Pro models.
+- ✅ **Responsive Modern UI:** Glassmorphism and dark-mode aesthetic for a premium experience.
+
+---
+
+## 🏗️ Project Architecture
+
+```text
+User
+  ↓
+Dashboard
+  ↓
+AI Advisor
+  ↓
+Decision Engine
+  ↓
+Gemini AI
+  ↓
+Recommendations
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📸 Screenshots
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Dashboard
+![Dashboard Screenshot](./screenshots/dashboard.png)
+> **Description:** Main overview of goals, tasks, schedule, and live AI recommendations.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+### Schedule Management
+![Schedule Screenshot](./screenshots/schedule.png)
+> **Description:** Manage meetings, workouts, and daily events.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Goals Tracking
+![Goals Screenshot](./screenshots/goals.png)
+> **Description:** Track personal and professional goals.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Task Management
+![Tasks Screenshot](./screenshots/tasks.png)
+> **Description:** Prioritize and complete high-impact tasks.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+### AI Advisor
+![AI Advisor Screenshot](./screenshots/advisor.png)
+> **Description:** Interact with the AI Chief of Staff.
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend:**
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+
+**AI Integration:**
+- Google Gemini AI SDK (`@google/generative-ai`)
+
+**State Management:**
+- React Hooks & Zustand (`useAppStore`)
+
+**Deployment:**
+- Vercel
+
+---
+
+## ⚙️ Installation
+
+Follow these steps to run LifeOS AI locally on your machine.
+
+**1. Clone repository**
+```bash
+git clone https://github.com/YOUR_GITHUB/life-os-advisor.git
+cd life-os-advisor
+```
+
+**2. Install dependencies**
+```bash
+npm install
+```
+
+**3. Configure Environment Variables**
+Create a `.env.local` file in the root directory and add your Google Gemini API key:
+```env
+GEMINI_API_KEY=YOUR_API_KEY
+```
+
+**4. Run the development server**
+```bash
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) to view the application.
+
+---
+
+## 📂 Folder Structure
+
+```text
+life-os-advisor/
+├── public/                 # Static assets
+├── src/
+│   ├── app/                # Next.js App Router (Pages & API Routes)
+│   │   ├── api/            # Backend API routes (Gemini Integration)
+│   │   ├── advisor/        # AI Advisor Chat interface
+│   │   └── page.tsx        # Dashboard
+│   ├── components/         # Reusable UI components (shadcn/ui)
+│   ├── hooks/              # Custom React hooks (useLocalStorage)
+│   ├── lib/                # Core logic (Decision Engine, mockData, store)
+│   └── types/              # TypeScript definitions
+├── .env.local              # Environment variables
+├── next.config.mjs         # Next.js configuration
+├── package.json            # Dependencies
+└── README.md               # Project documentation
+```
+
+---
+
+## 🗺️ Roadmap
+
+**Planned Features:**
+- [ ] Google Calendar Integration
+- [ ] File Upload Support
+- [ ] AI Weekly Reports
+- [ ] AI Productivity Analytics
+- [ ] Habit Tracking
+- [ ] Mobile App
+- [ ] Voice Assistant
+
+---
+
+## 🤝 Contributing
+
+Contributions are always welcome! If you have suggestions or find a bug, please follow these steps:
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+
+## 👨‍💻 Author
+
+**Name:** Pratik S K  
+**Role:** Computer Science Engineering Student  
+**Bio:** Passionate about AI, Software Engineering, Intelligent Systems, and building products that solve real-world problems.
+
+### 📬 Connect With Me
+- 📧 **Email:** [pratiksk0077@gmail.com](mailto:pratiksk0077@gmail.com)
+- 💼 **LinkedIn:** [Pratik S Kanoj](https://www.linkedin.com/in/pratik-s-kanoj-a81432300/)
+- 🐙 **GitHub:** [@PRATIKSK7](https://github.com/PRATIKSK7)
+
+---
+
+## ⭐ Star the Project
+
+If you found this project useful, inspiring, or helpful for your own development, please consider starring the repository! It helps the project grow and reach more developers.
