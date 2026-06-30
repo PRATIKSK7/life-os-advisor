@@ -1,4 +1,5 @@
 <div align="center">
+<img src="screenshots/banner.png" alt="LifeOS AI Banner" width="100%">
 
 # 🚀 LifeOS AI – Personal Chief of Staff
 
